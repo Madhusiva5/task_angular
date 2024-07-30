@@ -1,0 +1,73 @@
+<div class="container">
+    <!-- Header Section -->
+    <header>
+      <div class="logo">
+        <img src="assets/logo.png" alt="Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Staff / Student Home Page</a></li>
+          <li><a href="#">About their Department</a></li>
+          <li><a href="#">Department Toppers</a></li>
+          <li><a href="#">Logout</a></li>
+          <li ><a href="Home">Back</a></li>
+        </ul>
+      </nav>
+    </header>
+  
+    <!-- Registration Form Section -->
+    <section class="registration-form">
+      <h2>Registration Page</h2>
+      <form #registrationForm="ngForm" (ngSubmit)="onSubmit(registrationForm)">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" ngModel>
+          <label for="dob">DOB:</label>
+          <input type="date" id="dob" name="dob" ngModel>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" ngModel>
+          <label for="contact">Contact:</label>
+          <input type="tel" id="contact" name="contact" ngModel>
+        </div>
+        <div class="form-group">
+          <label for="fatherName">Father Name:</label>
+          <input type="text" id="fatherName" name="fatherName" ngModel>
+          <label for="motherName">Mother Name:</label>
+          <input type="text" id="motherName" name="motherName" ngModel>
+        </div>
+        <div class="form-group">
+          <label for="contactNumber1">Contact Number:</label>
+          <input type="tel" id="contactNumber1" name="contactNumber1" ngModel>
+          <label for="contactNumber2">Contact Number:</label>
+          <input type="tel" id="contactNumber2" name="contactNumber2" ngModel>
+        </div>
+        <div class="form-group">
+          <label for="tenthTotalMark">10th Total Mark:</label>
+          <input type="text" id="tenthTotalMark" name="tenthTotalMark" ngModel>
+          <label for="twelfthTotalMark">12th Total Mark:</label>
+          <input type="text" id="twelfthTotalMark" name="twelfthTotalMark" ngModel>
+        </div>
+        <div class="form-group">
+          <label for="physicsMark">Physics Mark:</label>
+          <input type="text" id="physicsMark" name="physicsMark" ngModel>
+          <label for="chemistryMark">Chemistry Mark:</label>
+          <input type="text" id="chemistryMark" name="chemistryMark" ngModel>
+          <label for="mathsMark">Maths Mark:</label>
+          <input type="text" id="mathsMark" name="mathsMark" ngModel>
+        </div>
+        <div class="form-group">
+          <label for="twelfthMarkSheet">12th Mark Sheet:</label>
+          <input type="file" id="twelfthMarkSheet" name="twelfthMarkSheet" ngModel>
+          <button type="button" class="upload-button">Upload</button>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="submit-button">Submit</button>
+          <button type="reset" class="reset-button">Reset</button>
+        </div>
+      </form>
+    </section>
+  
+    <!-- Footer Section -->
+    

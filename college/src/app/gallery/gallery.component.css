@@ -1,0 +1,133 @@
+
+  
+  .hero {
+    background: url('https://cdn.pixabay.com/photo/2015/06/25/03/43/national-taiwan-normal-university-820879_1280.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #302942;
+    text-align: center;
+    border-color: rgb(20, 14, 41);
+  }
+  
+  .hero .hero-content h1 {
+    font-size: 3em;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .features .feature {
+    text-align: center;
+  }
+  
+  .footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer .social-media a {
+    margin: 0 5px;
+  }
+  
+  .footer .social-media img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .footer .footer-logo img {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  div.gallery {
+    margin: 5px;
+    border: 1px solid rgb(20, 14, 41);
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid rgb(20, 14, 41);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;
+    }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgb(20, 14, 41);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .video-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .video-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .video-section video {
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+  }
+  /* .card{
+    background-color: rgb(20, 14, 41);
+  } */

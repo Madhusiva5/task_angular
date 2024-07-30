@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  header .logo img {
+    width: 100px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 15px;
+  }
+  
+  .registration-form {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .registration-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .registration-form .form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .registration-form .form-group label {
+    width: 30%;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  .registration-form .form-group input,
+  .registration-form .form-group button {
+    width: 65%;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  
+  .registration-form .form-group input[type="file"] {
+    padding: 0;
+  }
+  
+  .registration-form .form-group button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .registration-form .form-group button.upload-button {
+    width: auto;
+    padding: 10px 20px;
+  }
+  
+  .registration-form .form-group button.submit-button,
+  .registration-form .form-group button.reset-button {
+    width: 48%;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  footer .footer-logo img {
+    width: 100px;
+  }
+  
+  footer .social-media img {
+    width: 30px;
+    margin: 0 5px;
+  }
+  
+  footer .affiliations img {
+    width: 50px;
+    margin: 0 10px;
+  }
+  
